@@ -1,1 +1,55 @@
 /*  your css code here. If applicable */
+
+#grid{
+	  display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; /* 3 columns */
+	   grid-auto-rows: 50px;
+	  
+      grid-template-rows: auto; 
+      gap: 10px; /* ye hi white gap hai */
+      width: 90%;
+      height: 90%;
+      background: white;
+	  gap:4px;
+}
+.grid-item {
+	
+      background: green;
+      color: white;
+      
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      
+    }
+ .grid1 {
+      grid-column: 1 / span 4; /* full top row */
+    }
+    .grid2 {
+      grid-row: 2/ 6; /* long left column */
+	
+    }
+    .grid3 {
+      grid-column: 2;
+    }
+    .grid4 {
+      grid-column: 3/5;
+    }
+    .grid5 {
+      grid-column: 2/ 4;
+    }
+    .grid6 {
+      grid-column: 4; /* adjust if extra column chahiye */
+    }
+    .grid7 {
+      grid-column: 2;
+    }
+    .grid8 {
+      grid-column: 3;
+    }
+    .grid9 {
+      grid-column: 4;
+    }
+    .grid10 {
+      grid-column: 2 / 5;
+    }
