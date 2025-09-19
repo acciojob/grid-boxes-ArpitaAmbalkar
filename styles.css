@@ -2,7 +2,7 @@
 #grid{
 	display:grid;
 	grid-template-columns:1fr 1fr 1fr 1fr;
-	grid-template-rows:repeat(5,50px);
+	grid-template-rows:124px 124px 124px 124px 124px;
 	gap:5px;
 	color:white;
 }
@@ -10,7 +10,7 @@
 	background-color:green;
 }
 .grid1{
-	grid-column:1/span 4;
+	grid-column:span 4;
 }
 .grid2{
 	grid-column:1;
