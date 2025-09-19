@@ -3,7 +3,7 @@
 	display:grid;
 	grid-template-columns:242.5px 242.5px 242.5px 242.5px;
 	grid-template-rows:124px 124px 124px 124px 124px;
-	gap:5px;
+	gap:10px;
 	color:white;
 }
 .grid-item{
@@ -20,10 +20,10 @@
 	grid-column:2;
 }
 .grid4{
-	grid-column:3/5;
+	grid-column:span 2;
 }
 .grid5{
-	grid-column:2/4;
+	grid-column:span 2;
 }
 .grid7{
 	grid-column:2;
