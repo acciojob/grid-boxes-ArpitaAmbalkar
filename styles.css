@@ -35,6 +35,6 @@
 	grid-column:4;
 }
 .grid10{
-	grid-column:2/5;
+	grid-column:span 3;
 }
 
